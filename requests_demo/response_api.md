@@ -1,7 +1,7 @@
 # response的对象信息
-import requests  
-URL = 'https://api.github.com'  
-response = requests.get(URL)
+<br>import requests
+<br>URL = 'https://api.github.com'
+<br>response = requests.get(URL)
 ## 查看response的帮助信息
 `dir(response)`
 ## 具体使用：
