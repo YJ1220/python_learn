@@ -6,33 +6,33 @@
 `dir(response)`
 ## 具体使用：
 * 状态码
-`response.status_code`
+<br>`response.status_code`
 * 返回值
-`response.reason`
+<br>`response.reason`
 * 返回头部信息
 <br>`response.headers`
-<br>`response.headers['Server']`#查看返回头部某一值
+<br>`response.headers['Server']` 查看返回头部某一值
 * 请求的url
-`response.url`
+<br>`response.url`
 * history 将http重定向到https
-    <br>`response.history`</br>
-    <br>`[root@host ~]#:[ ]`</br>
-    <br>`response = requests.get('http://api.github.com')`</br>
-    <br>`response.history`</br>
-    <br>`[root@host ~]#:[response[301]]`</br>
+    <br>`response.history`
+    <br>`[root@host ~]#:[ ]`
+    <br>`response = requests.get('http://api.github.com')`
+    <br>`response.history`
+    <br>`[root@host ~]#:[response[301]]`
 * 请求时间:
-`response.elapsed`
+<br>`response.elapsed`
 * requests请求方式:
-`response.requests`
+<br>`response.requests`
 * requests的headers:
-`response.requests.headers`
+<br>`response.requests.headers`
 * 编码模式:
-`response.encoding`
+<br>`response.encoding`
 * 查看返回信息:
-    <br>`response.raw.read(100)` #前100 </br>
-    <br>`response.content` </br>
-    <br>`response.text` </br>
-    <br>`response.json()` </br>
+    <br>`response.raw.read(100)` 前100
+    <br>`response.content`
+    <br>`response.text`
+    <br>`response.json()`
     <br>`response.json()['team_url']`#查看其中team_url对应的值
 
 

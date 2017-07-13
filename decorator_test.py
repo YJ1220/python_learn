@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # _*_ coding:utf-8 _*_
-# 装饰器
+'''
+装饰器
+'''
+
 import functools
 
 

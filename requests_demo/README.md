@@ -8,3 +8,5 @@
 * download_file.py
 * [Python实现多线程下载文件](http://blog.topspeedsnail.com/archives/8462)
 * [Python3使用requests模块显示下载进度](http://blog.csdn.net/supercooly/article/details/51046561)
+## request钩子
+* hook_simple.py
