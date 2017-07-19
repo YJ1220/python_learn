@@ -10,3 +10,5 @@
 * [Python3使用requests模块显示下载进度](http://blog.csdn.net/supercooly/article/details/51046561)
 ## request钩子
 * hook_simple.py
+## HTTP认证
+* authen.py
